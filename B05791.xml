@@ -1,0 +1,707 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[A pick-tooth for the Pope, or,] The pack-mans pater noster</title>
+            <author>Sempill, James, Sir, 1566-1625.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 21 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B05791</idno>
+            <idno type="STC">Wing S2495A</idno>
+            <idno type="STC">ESTC R183716</idno>
+            <idno type="EEBO-CITATION">52615103</idno>
+            <idno type="OCLC">ocm 52615103</idno>
+            <idno type="VID">176126</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B05791)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 176126)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2762:69)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[A pick-tooth for the Pope, or,] The pack-mans pater noster</title>
+                  <author>Sempill, James, Sir, 1566-1625.</author>
+                  <author>Sempill, Robert, 1595?-1665?</author>
+               </titleStmt>
+               <extent>30+ [i.e. 12] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[Edinburgh :</pubPlace>
+                  <date>1700]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Satire in verse on the Catholic liturgy; with additions by the author's son Robert Sempill.</note>
+                  <note>Imperfect: Dark, with much loss of text. Lacks all before p. 17, 21-22, 25-26 and all after p. 30.</note>
+                  <note>Reproduction of original in: National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Liturgy --  Humor --  Early works to 1800.</term>
+               <term>Religious satire, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:176126:1"/>
+            <pb facs="tcp:176126:1"/>
+            <head>
+               <hi>The Pack-Man</hi>'s Pater Noſter.</head>
+            <lg>
+               <l>On which to think, it makes me ſweat for ſham<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>As are theſe Rites maintain'd in <hi>Romes</hi> Theatre;</l>
+               <l>And firſt the caſting of their holy Water.</l>
+               <l>Their <hi>Exorciſme,</hi> their <hi>Images,</hi> their
+<hi>Altars.</hi>
+               </l>
+               <l>Of <hi>Croſſes, Cups</hi> and <hi>Pals, Popes</hi> are exalters,</l>
+               <l>Of <hi>Candles,</hi> and of Churches conſecration.</l>
+               <l>With veſtments in the <hi>Church</hi> for Decoration,</l>
+               <l>Their Hypocritical hid Hermitages,</l>
+               <l>Their <hi>Penna<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ce</hi> and <hi>Polluted Pilgrimages;</hi>
+               </l>
+               <l>
+                  <hi>Free-will,</hi> and humane Merit for Offe<gap reason="illegible" resp="#OXF" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </l>
+               <l>With jugling, <hi>Jubilees,</hi> and <hi>Indulgences,</hi>
+               </l>
+               <l>And of the <hi>Saints</hi> their idle invocation,</l>
+               <l>And by the <hi>Pope</hi> their <hi>Curſt Canonization.</hi>
+               </l>
+               <l>
+                  <hi>Auricular Confeſſion,</hi> vile pollution,</l>
+               <l>And for their <hi>Sins</hi> a-pay'd for Abſolution.</l>
+               <l>Their privat<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <hi>Maſſes,</hi> and their mu<gap reason="illegible" resp="#OXF" extent="5 letters">
+                     <desc>•••••</desc>
+                  </gap>ation,</l>
+               <l>Their <hi>Elevation, Tranſubſtantiation.</hi>
+               </l>
+               <l>Sir <hi>John,</hi> if you would hear me bot record,</l>
+               <l>Some Verſes on the <hi>Supper</hi> of our <hi>Lord:</hi>
+               </l>
+               <l>It was a Friend of mine to me did ſend them,</l>
+               <l>Hee's not a <hi>Christian</hi> will not commend them.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Prieſts</hi> make <hi>Christs</hi> both Body and Soul, we need not doubt,</l>
+               <l>They Eat, Drink, Box him up, they bear about,</l>
+               <l>One is to little, Bread and Wine,</l>
+               <l>Holds not him ſeveral ſo we Dine;</l>
+               <l>Thou with thy <hi>Christ,</hi> I with mine.</l>
+               <l>Is thy Mouth the Virgins Womb? Is bread he<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſeed</l>
+               <l>Are thy words the Holy Ghoſt? Is this our Creed?</l>
+               <l>O preſumptuous undertaker!</l>
+               <l>Never Cake could make a Baker,</l>
+               <l>Yet the <hi>Priest</hi> can make his Maker.</l>
+               <pb facs="tcp:176126:2"/>
+               <l>What's become of all theſe Chiſtshe Prieſts have made?</l>
+               <l>Do theſe Hoſtes or Oſtes abide? or do they fade</l>
+               <l>One <hi>Christ</hi> abides the reſt do flie:</l>
+               <l>One <hi>Christ</hi> he lives, the reſt do Die:</l>
+               <l>One <hi>Christ</hi> True, the reſt a lie.</l>
+            </lg>
+            <sp>
+               <speaker>R. S.</speaker>
+               <lg>
+                  <l>Into the <hi>Goſpel, Take Ye, Eat Ye,</hi> Chriſt ſaith,</l>
+                  <l>For which <hi>Receive Ye, Swallow Ye,</hi> your prieſt ſaith.</l>
+               </lg>
+               <lg>
+                  <l>See how by popes the Sacraments are driven,</l>
+                  <l>Where Chriſt makes two, they ad five, ſo make ſeven.</l>
+                  <l>For <hi>Baptiſm</hi> and the <hi>Supper</hi> of the
+<hi>Lord,</hi>
+                  </l>
+                  <l>Theſe only two did Chriſt to us afford.</l>
+                  <l>With Chriſt his Inſtitution not content,</l>
+                  <l>To theſe two True, Five Baſtards they augment.</l>
+                  <l>A Baſtards name doth duly them be fit;</l>
+                  <l>For they were never Re-abled as yet;</l>
+                  <l>Nor ever ſhall, but ſtill will be abhor'd,</l>
+                  <l>Becauſe they have no Warrant from the Lord,</l>
+                  <l>As <hi>Confirmation, Pennance, Extream <g ref="char:V">Ʋ</g>nction,</hi>
+                  </l>
+                  <l>With <hi>Prieſtly Orders</hi> to adorn their Function;</l>
+                  <l>And <hi>Matrimony</hi> they maintain as One.</l>
+               </lg>
+               <lg>
+                  <l>But here's a wondrous Thing to think upon,</l>
+                  <l>How Popes do call themſelves, <hi>Servi Servorum;</hi>
+                  </l>
+                  <l>Yet in Proceſſion keep a Strange <hi>Decorum,</hi>
+                  </l>
+                  <l>They tread on Necks of Kings upon the Street;</l>
+                  <l>And forcing Emperors to kiſs their Feet.</l>
+                  <l>Doth God the Father in his Law allow</l>
+                  <l>Theſe vile Inventions your Church doth Avow?</l>
+                  <l>Doth Chriſt his Son into his Goſpel give</l>
+                  <l>Such wayes to walk in, ſuch Faith to believe?</l>
+                  <l>Or doth the Holy Ghoſt in us inſpire,</l>
+                  <pb facs="tcp:176126:2"/>
+                  <pb facs="tcp:176126:3"/>
+                  <pb n="17" facs="tcp:176126:3"/>
+                  <l>More than the Law and Goſpel doth require?</l>
+               </lg>
+               <lg>
+                  <l>The Father hath perſcrib'd to us a Law,</l>
+                  <l>To keep us in obedience and Aw:</l>
+                  <l>And Chriſt his Son our Saviour, did Provide us</l>
+                  <l>His Glorious Goſpel always for to Guide us;</l>
+                  <l>The Holy Ghoſt doth from them both proceed,</l>
+                  <l>To Guard us from our Sins in time of need.</l>
+               </lg>
+               <lg>
+                  <l>If we tranſgreſs the Law of God the Father,</l>
+                  <l>Then neither Grace nor Confort can we gather.</l>
+                  <l>If we believe not in his only Son,</l>
+                  <l>Then our belief is doubtleſly undone;</l>
+                  <l>And if we breath not of the Holy Ghoſt,</l>
+                  <l>Then is our Labour all our life-time loſt.</l>
+               </lg>
+               <lg>
+                  <l>But Gods Commandments your Church renverſes</l>
+                  <l>S me ſhe conjoyns, and others ſhe diſperſes:</l>
+                  <l>She truſt in <hi>Saints</hi> and <hi>Angels</hi> many one,</l>
+                  <l>And ſhould Truſt in the Trinity alone:</l>
+                  <l>Wherefore Gods Holy Spirit can nev'r attend her<g ref="char:punc">▪</g>
+                  </l>
+                  <l>Nor in diſtreſs or danger ever defend her,</l>
+                  <l>And though ſhe Reign a while in pompe &amp; pride<g ref="char:punc">▪</g>
+                  </l>
+                  <l>I hope in God my good and gracious Guide,</l>
+                  <l>To her the True Religion hee'l advance.</l>
+                  <l>Ere l<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ng, and bring her out of ignorance,</l>
+                  <l>Wherein ſhe hath theſe many Hundreth Years</l>
+                  <l>Lyen wilfully, which manifeſt appears,</l>
+                  <l>By her unwillingneſs from thence to part,</l>
+                  <l>She is ſo obdurate, and hard of heart;</l>
+                  <l>So that except God by his mighty hand,</l>
+                  <l>Her power, her pride and Cruelty, withſtand,</l>
+                  <l>And force her from her Filthineſſe to flie.</l>
+                  <l>Of Errors great, and Groſs Idolatry:</l>
+                  <l>So if ſhe follow not Chriſts True Inſtruction,</l>
+                  <pb n="18" facs="tcp:176126:4"/>
+                  <l>I fear her Final dangerous Deſtruction:</l>
+                  <l>Which God forbid: I hope in his own Time,</l>
+                  <l>Hee'l both forgive, and purge her of all Crime.</l>
+                  <l>Heard ever ye, Sir <hi>John,</hi> a purpoſe Quicker,</l>
+                  <l>To prove the Pope to be Chriſts only Vicar?</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>S. J. S.</speaker>
+               <l>And though he were full Vicar to our Lord,</l>
+               <l>Should not his words and Chriſts keep one accord?</l>
+            </sp>
+            <sp>
+               <speaker>Prieſt.</speaker>
+               <l>Doubtleſs tho do, and never are contrary,</l>
+               <l>In <hi>Pater Noſier, Creed:</hi> nor <hi>Ave Mary.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Pack-Man.</speaker>
+               <l>But Chriſts Diſciples when they made their m<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tion.</l>
+               <l>To Chriſt their Maſter, how to make Devotion,</l>
+               <l>As I have done to you, Sir <hi>John,</hi> to day,</l>
+               <l>I pray you, in what tongue bade He them pray?</l>
+               <l>Chriſt did not one w<gap reason="illegible" resp="#OXF" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tin to them ſpeak:</l>
+               <l>Their talk was all in <hi>Syriack, He<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rew, Greek.</hi>
+               </l>
+               <l>He bade all Nations pray after one Manner:</l>
+               <l>But bade not all tak<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Latine</hi> for their Banner.</l>
+               <l>Your <hi>Latine</hi> is but one of the Tranſlations:</l>
+               <l>Why ſhould it then exclude all other Nations?</l>
+               <l>And on my Soul, Sir <hi>John,</hi> if I but ſay,</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> mine own Mother tongue, when I do pray;</l>
+               <l>
+                  <hi>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ord, help me, Lord, forgive me all my Sins;</hi>
+               </l>
+               <l>
+                  <hi>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>a, why not, Lord, increaſe my pack and pins,</hi>
+               </l>
+               <l>
+                  <hi>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>d every thing whereof I ſtand in need;</hi>
+               </l>
+               <pb n="19" facs="tcp:176126:4"/>
+               <l>For this depends upon our dayly bread;</l>
+               <l>I hope in God, to
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> more comfort herein,</l>
+               <l>Than <hi>Latine</hi> ye would make me ſo parquier in.</l>
+               <l>And ſince ſome tongues have more Antiquity,</l>
+               <l>Than <hi>Latine,</hi> were it not Iniquity</l>
+               <l>To force all People to pray like the Pope?</l>
+               <l>No, good Sir <hi>John,</hi> ye'l not ſay that, I hope.</l>
+            </sp>
+            <sp>
+               <speaker>Priest.</speaker>
+               <l>But Pack-Man, one Point would I fain make plain</l>
+               <l>Let us come back to our <hi>Ladie</hi> again;</l>
+               <l>And if thou had as much Capacity,</l>
+               <l>As raving wit, with great audacity,</l>
+               <l>The caſe is clear, that Virgine <hi>Mary</hi> meek,</l>
+               <l>She could all Languages perfitely ſpeak.</l>
+               <l>Haſt thou not heard, Man, how the <hi>Holy Ghoſt</hi>
+               </l>
+               <l>Came down like cloven tongues at the <hi>Pentecost,</hi>
+               </l>
+               <l>And fild the Houſe where all the twelve were ready.</l>
+               <l>And one Tongue Truely lighted on our Lady?</l>
+               <l>And leſt thou think I talk of idle themes,</l>
+               <l>Conſult the reverend <hi>Jeſuits</hi> of
+<hi>Rhemes;</hi>
+               </l>
+               <l>I pray thee, Pack-Man, earneſtly this note.</l>
+            </sp>
+            <sp>
+               <speaker>Pack-Man.</speaker>
+               <l>In Faith, Sir <hi>John,</hi> it is not worth a Groat.</l>
+               <l>Will I believ't, think ye, becauſe they ſay it?</l>
+            </sp>
+            <sp>
+               <speaker>Prieſt.</speaker>
+               <l>No; but they prov't as no Man can deny it.</l>
+               <pb n="20" facs="tcp:176126:5"/>
+               <l>Saith not the Text, that when the Lord aſcended,</l>
+               <l>Unto the <hi>Twelve</hi> he earneſtly Recommended,</l>
+               <l>That from <hi>Jeruſalem</hi> they ſhould not go,</l>
+               <l>Untill the Comforter ſhould come; and ſo</l>
+               <l>Into an upper Room they went together,</l>
+               <l>Where <hi>Marie</hi> ſtill was one, you muſt conſider,</l>
+               <l>With many mo in number full ſix ſcore,</l>
+               <l>That with the <hi>Twelve</hi> did daily God Adore;</l>
+               <l>And then he ſaith, when <hi>Pentecoſt</hi> was come,</l>
+               <l>They were together in one place, all, and ſome,</l>
+               <l>And (all) were filled with the Holy Ghoſt.</l>
+            </sp>
+            <sp>
+               <speaker>Pack-Man.</speaker>
+               <lg>
+                  <l>O good Sir <hi>John,</hi> ye count without your hoſt.</l>
+                  <l>Now I ſee well your <hi>Jeſuitical</hi> Tongues</l>
+                  <l>Have cloven the Text even to the very Lungs:</l>
+                  <l>That (all) which firſt was ſpoken of ſix Score,</l>
+                  <l>Is here meant only of the <hi>Twelve,</hi> no more,</l>
+                  <l>Now <hi>Mary</hi> is not named now, as than;</l>
+                  <l>What need I then believe it, holy Man?</l>
+                  <l>On with your Spectacles, Sir <hi>John,</hi> and Read,</l>
+                  <l>And credite this as a Point of your <hi>Creed:</hi>
+                  </l>
+                  <l>The <hi>Holy Ghoſt</hi> could fall upon no more</l>
+                  <l>Than He was promiſed unto before.</l>
+                  <l>Doubtleſs He took not a blind-folded Flight,</l>
+                  <l>Like fyled <hi>Larks,</hi> not knowing where to light.</l>
+                  <l>Now, He was promis'd only to the <hi>Twelve,</hi>
+                  </l>
+                  <l>Look on the Text, Sir <hi>John,</hi> and judge your ſelve;</l>
+                  <l>Speak man, and be not ſilent: I am ſorry</l>
+                  <l>To ſee you ignorant of ſuch a ſtory.</l>
+               </lg>
+               <lg>
+                  <l>And, as the ſtories in themſelves are divers,</l>
+                  <l>Flowing and falling into ſundry Rivers;</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n divers Chapters ſo they ſtand divided,</l>
+                  <pb n="23" facs="tcp:176126:5"/>
+                  <l>Whereof ye have no Warrant in the Word;</l>
+                  <l>And yet purſue us both with Fire and Sword,</l>
+                  <l>As Hereticks, fot not doing as ye do;</l>
+                  <l>Yet what the World bids, and no more, that we do,</l>
+                  <l>Think ye that any man can be ſo mad,</l>
+                  <l>As to hold Chriſt his Saviour; and ſo bad,</l>
+                  <l>As to hold <hi>Marie</hi> for his Saviours Mother,</l>
+                  <l>And not to love her ſtill above all other?</l>
+                  <l>We love her then, tho' we believe not in her.</l>
+                  <l>Nor by will-worſhip think we for to win her.</l>
+                  <l>We hold her bleſſed, for <hi>Chriſts</hi> fleſh conceiving,</l>
+                  <l>But far more bleſſed, for <hi>Chriſts</hi> faith receiving</l>
+                  <l>She is his Mother, and the Church his Wife.</l>
+                  <l>Which was to him more dearer than his life</l>
+                  <l>So if the one could fall out with the other,</l>
+                  <l>He would reſpect his Wife, more than his Mother;</l>
+                  <l>For this is every Spouſes carriage,</l>
+                  <l>But moſt in this ſpiritual Marriage,</l>
+                  <l>And as ſhe's Mother of his humane life</l>
+                  <l>She's but a Daughter of his heavenly Wife,</l>
+                  <l>And by his Mother, member of <hi>Christs</hi> body;</l>
+                  <l>Who thinks not ſo, is but a very Noddy.</l>
+                  <l>All this, Sir <hi>John,</hi> I do but briefly ſay,</l>
+                  <l>To let yov ſee, that ye play us foul play.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Priest,</speaker>
+               <l>Well, Pack-man. tho' thou bear about that trunk</l>
+               <l>I fear thou be but ſome foreloppin Monk,</l>
+               <l>Of <hi>Luthers</hi> lore, or crooked <hi>Calvins</hi> crew,</l>
+               <l>And ſent abroad, ſuch buſineſs to brew;</l>
+               <l>Transformed in the perſon of ſome Pedler</l>
+            </sp>
+            <sp>
+               <speaker>Pack man.</speaker>
+               <l>Now, good Sir <hi>John;</hi> in faith I am no medler,</l>
+               <pb n="24" facs="tcp:176126:6"/>
+               <l>Nor have I mind nor means ſo high to Mount;</l>
+               <l>I can but Read a little, and lay a Count,</l>
+               <l>And ſeek my Meat through many an unknown Maiſon.</l>
+               <l>I know not what you call your <hi>Kyrie Laiſon;</hi>
+               </l>
+               <l>
+                  <hi>So help me GOD,</hi> Sir <hi>John,</hi> I know not better,</l>
+               <l>Nor in your <hi>Latine</hi> can I Read one Letter.</l>
+               <l>I but believe in GOD and ſometimes ſay,</l>
+               <l>
+                  <hi>Christ help me when I Wander out the Way.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Prieſt. R. S.</speaker>
+               <l>I pray thee, <hi>Pack Man</hi> this much for to tell me,</l>
+               <l>Since thou preſumes ſo far for to excell me.</l>
+               <l>Were't not a very Reaſonable Thing;</l>
+               <l>
+                  <hi>If one were going to an Earthly King,</hi>
+               </l>
+               <l>
+                  <hi>To get forgiveneſſe for ſome great Tranſgreſſion.</hi>
+               </l>
+               <l>
+                  <hi>That he ſhould ſhortly ſuite the Interceſſion</hi>
+               </l>
+               <l>
+                  <hi>Of ſome great Favourite, and he for to paſs</hi>
+               </l>
+               <l>
+                  <hi>To purchaſe pardon for his high Treſpaſs;</hi>
+               </l>
+               <l>
+                  <hi>And not the guilty perſon to proceed</hi>
+               </l>
+               <l>
+                  <hi>Preſumptuouſly before the King to plead;</hi>
+               </l>
+               <l>
+                  <hi>But uſe his moyen by His Highneſs minion.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Pack-man.</speaker>
+               <l>Sir <hi>John,</hi> that motion is not worth an
+<hi>Onion.</hi>
+               </l>
+               <l>What if the King ſhall hear the Poor Man's Suite,</l>
+               <l>Should he ſtand ſilent as if he were mute?</l>
+               <l>No: he ſhould, proſtrat, lay his Fault before Him,</l>
+               <l>And he himſelf for pity ſhould implore him;</l>
+               <l>For <hi>Interceſſors</hi> oftimes lurks and lingers,</l>
+               <l>Except the <hi>Pleaders</hi> largely fill their Fingers.</l>
+               <pb n="27" facs="tcp:176126:6"/>
+               <l>Be here to m<gap reason="illegible" resp="#OXF" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>w juſt 'tween ſix and ſeven,</l>
+               <l>And thou w<gap reason="illegible" resp="#OXF" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> thyſelf <hi>half way to Heaven.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Pack-Man.</speaker>
+               <l>
+                  <hi>Content quoth I,</hi> but there is ſomething more,</l>
+               <l>I muſt have your Opinion in before.</l>
+               <l>In caſe the holy <hi>Prior</hi> have
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> le<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ure,</l>
+               <l>To ſpeak of every purpoſe at our pleaſure:</l>
+               <l>There was but one Tongue at the birth of <hi>Abel,</hi>
+               </l>
+               <l>And many at the building up of <hi>Babel:</hi>
+               </l>
+               <l>A wicked Work which God would have confounded,</l>
+               <l>But when Chriſt came all Tongues again reſounded,</l>
+               <l>To build his <hi>Church</hi> by his <hi>Apostles</hi> teaching,</l>
+               <l>Why not in praying, as well as in Preaching?</l>
+               <l>Since prayer is the True and full perfection</l>
+               <l>Of holy Service: ſaying your Correction:</l>
+               <l>So if our LORD to mine own Tongue be ready,</l>
+               <l>What need I then with <hi>Latine</hi> trouble our
+<hi>Lady?</hi>
+               </l>
+               <l>Or if both theſe my prayers muſt be in,</l>
+               <l>I pray thee, tell me at whom to begin?</l>
+               <l>And to pray Joyntly to them both as one,</l>
+               <l>Your <hi>Latine</hi> prayers then are quickly gone:</l>
+               <l>For <hi>Pater Noster</hi> never to accord,</l>
+               <l>With her, nor <hi>Ave Mary</hi> with our LORD,</l>
+               <l>If I get him what need I ſeek another?</l>
+               <l>Or dare he do nothing without his Mother?</l>
+               <l>And this, Sir <hi>John,</hi> was once in Queſtion,</l>
+               <l>Diſputed long with deep digeſtion,</l>
+               <l>Whether the <hi>Pater Noster</hi> ſhould be ſaid,</l>
+               <l>To GOD, or to our <hi>Lady,</hi> when they pray'd</l>
+               <l>When <hi>Maſter Mare</hi> of learn'd Diverſitie,</l>
+               <l>Was <hi>Rector</hi> of our <hi>
+                     <g ref="char:V">Ʋ</g>niverſitie:</hi>
+               </l>
+               <l>They ſate ſo long, they cooled all their Kail,</l>
+               <l>Untill the <hi>Master-Cook</hi> heard of the Tale,</l>
+               <pb n="28" facs="tcp:176126:7"/>
+               <l>Who like a Mad-Man ran amongſt the <hi>Clergie,</hi>
+               </l>
+               <l>Crying with many a <hi>Domine me aſperge:</hi>
+               </l>
+               <l>To give the <hi>Pater Noſter</hi> to the Father,</l>
+               <l>And to our <hi>Ladie</hi> give the <hi>Ave's</hi> rather;</l>
+               <l>And like a Welſh-Man ſwore a great <hi>Saint Davies</hi>
+               </l>
+               <l>She might content her well with Creeds and <hi>Ave's</hi>
+               </l>
+               <l>And ſo the <hi>Clergie</hi> fearing more confuſion.</l>
+               <l>Were all contented with the Cooks concluſion,</l>
+            </sp>
+            <sp>
+               <speaker>Priest.</speaker>
+               <p>
+                  <hi>Pack-Man,</hi> this Tale is coyned of the new.</p>
+            </sp>
+            <sp>
+               <speaker>Pack-Man.</speaker>
+               <lg>
+                  <l>Sir <hi>John,</hi> I'le quite the pack, if't be not true.</l>
+                  <l>Again, Sir <hi>John,</hi> ye learned <hi>Monks</hi> may read,</l>
+                  <l>How <hi>Chriſt</hi> himſelf taught us of his own Head,</l>
+                  <l>That every Soul that was with Sin oppreſt.</l>
+                  <l>Should come to him, and He would give them reſt.</l>
+                  <l>Come all to me, ſaith he, not to another,</l>
+                  <l>Come all to me, ſaith he, not to my Mother:</l>
+                  <l>And if I do all as <hi>Chriſt</hi> did Command it,</l>
+                  <l>I hope her Ladiſhip will not withſtand it.</l>
+                  <l>And ſo, Sir <hi>John,</hi> if I ſhould ſpeak in
+<hi>Latine</hi>
+                  </l>
+                  <l>Unto the LORD, at Even-Song and at Matine,</l>
+                  <l>And never underſtand what I were ſaying,</l>
+                  <l>Think ye the LORD would take this for true praying,</l>
+                  <l>No: that ye cannot; for ye may conſider,</l>
+                  <l>My Tongue and Heart ſhould pray to GOD together.</l>
+               </lg>
+               <lg>
+                  <l>And hereupon ye ſhall hear what befell,</l>
+                  <l>To certain Clerks that <hi>Latine</hi> well could ſpell;</l>
+                  <l>With whom by chance, I Lodged at an <hi>Inne,</hi>
+                  </l>
+                  <l>Where an old Wife upon a Rock did ſpin;</l>
+                  <l>And towards Evening ſhe fell to and pray'd;</l>
+                  <pb n="29" facs="tcp:176126:7"/>
+                  <l>But neither they, not I knew what ſhe ſaid.</l>
+                  <l>One ſaid, the Carling Counterfeits the Canting.</l>
+                  <l>Another ſaid, it's but the Matrons manting.</l>
+                  <l>Some call'd it Cibbers, other call'd it Clavers</l>
+                  <l>But ſtill the Carling ſpeaks, and ſpins, and ſlavers,</l>
+                  <l>Now good Sir <hi>John,</hi> what think ye of this Huſſie?</l>
+                  <l>Where was her Heart, when her Hands was ſo buſie?</l>
+                  <l>In end, one ſaid, <hi>Dame,</hi> wot ye what ye ſay?</l>
+                  <l>No, not, ſaid ſhe, but well I wot I pray.</l>
+                  <l>Ye pray, ſaid he, and wots not what? I grant.</l>
+                  <l>Alace, how ye can be ſo ignorant?</l>
+                  <l>The Matrone muſing little at the Motion,</l>
+                  <l>Said, <hi>Ignorance is Mother of devotion,</hi>
+                  </l>
+                  <l>Then <hi>Dame,</hi> ſaid he, <hi>if Ignorance be the Mother.</hi>
+                  </l>
+                  <l>
+                     <hi>Darkneſſe must be the Daughter, and none other.</hi>
+                  </l>
+                  <l>
+                     <hi>Pray'd ye,</hi> ſaid he, <hi>when all the Time ye Span?</hi>
+                  </l>
+                  <l>
+                     <hi>What reck of that?</hi> ſaid ſhe, <hi>God's a good Man,</hi>
+                  </l>
+                  <l>
+                     <hi>And underſtands all that I ſay in</hi> Latin,</l>
+                  <l>
+                     <hi>And this I do at Even-Song and Matine.</hi>
+                  </l>
+                  <l>Alace, Sir <hi>John,</hi> was not this Wife abuſed,</l>
+                  <l>Whoſe Soul and Senſes all were ſo confuſed?</l>
+                  <l>Ye know theſe unknown Tongues can profit no Man,</l>
+                  <l>And one tongue is enough for any Woman.</l>
+                  <l>But when one prayes in true ſincerity,</l>
+                  <l>As God commands, in Spirit and Verity;</l>
+                  <l>The heart ſends up the Tongue as Meſſenger</l>
+                  <l>Unto the Lord a Pleaſant Paſſenger.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Prieſt.</speaker>
+               <l>But <hi>Pack-Man</hi> here's a pretie little Book,</l>
+               <l>Wherein if thou will liſten for to look,</l>
+               <pb n="30" facs="tcp:176126:8"/>
+               <l>Set out by a true Catholick Divine.</l>
+               <l>And out of doubt will ſettle thine ingine,</l>
+               <l>Faith, Read it, <hi>Pack-Man,</hi> for it is but little.</l>
+               <l>The gadge of the <hi>new-Goſpel</hi> is it's tittle.</l>
+               <l>He clearly proves by <hi>Zacharias</hi> Example.</l>
+               <l>When He did Sacrifice within the Temple,</l>
+               <l>And all the People ſtood and pray'd without,</l>
+               <l>They knew not then what Tongue He ſpake, no doubt;</l>
+               <l>
+                  <hi>Ergo</hi> the <hi>Maſſe</hi> may both be ſaid and Sung,</l>
+               <l>In other Language than the Mother Tongue.</l>
+            </sp>
+            <sp>
+               <speaker>Pack-Man.</speaker>
+               <l>Sir <hi>John,</hi> I ſee your holy Catholick,</l>
+               <l>Upon the Truth, hath put a pretty Trick.</l>
+               <l>Have ye not heard this <hi>Proverb</hi> oftimes founded,</l>
+               <l>
+                  <hi>Homo qui malè audit male rounded?</hi>
+               </l>
+               <l>So if the People heard not what he ſaid,</l>
+               <l>How could they know in what Language he pray'd?</l>
+               <l>Since underſtanding cometh by the Ear,</l>
+               <l>He cannot underſtand that doth not hear.</l>
+               <l>Or how proves this that <hi>Zacharie</hi> the
+<hi>Prieſt</hi>
+               </l>
+               <l>Spake <hi>Latine,</hi> then the Language of the Beaſt?</l>
+               <l>Were <hi>Liturgies</hi> under the <hi>Law</hi> but ſo</l>
+               <l>In ſuch a Tongue that all the <hi>Jews</hi> did know?</l>
+               <l>What e're He ſpake, himſelf ſure underſtood it</l>
+               <l>And ſo your Catholick did ill conclude it:</l>
+               <l>Becauſe a learned <hi>Priest</hi> may pray in
+<hi>Latine,</hi>
+               </l>
+               <l>And mumble o're his Even-Song, <hi>Maſſe</hi> and Matin</l>
+               <l>
+                  <hi>Ergo</hi> a <hi>Pack-Man</hi> to the LORD may Pray,</l>
+               <l>And never know a Syllable he doth ſay:</l>
+               <l>For when you put me to my <hi>Pater Noſter,</hi>
+               </l>
+               <l>I ſeek an <hi>Egge,</hi> and ye give me an <hi>Oster.</hi>
+               </l>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>
